@@ -7,7 +7,7 @@ resume_btn.addEventListener("click", (e) => {
     "https://drive.google.com/file/d/13NOplGRKospEeCsnxJYPL8iGWhwKR5h8/view?usp=sharing"
   );
   window.location.href =
-    "https://drive.google.com/u/0/uc?id=1O02_J76ogTkuPfvMFxv9Z4omK3mtfGWW&export=download";
+    "https://drive.google.com/file/d/13NOplGRKospEeCsnxJYPL8iGWhwKR5h8/view?usp=sharing";
 });
 
 resume_btn2.addEventListener("click", (e) => {
@@ -16,5 +16,5 @@ resume_btn2.addEventListener("click", (e) => {
     "https://drive.google.com/file/d/13NOplGRKospEeCsnxJYPL8iGWhwKR5h8/view?usp=sharing"
   );
   window.location.href =
-    "https://drive.google.com/u/0/uc?id=1O02_J76ogTkuPfvMFxv9Z4omK3mtfGWW&export=download";
+    "https://drive.google.com/file/d/13NOplGRKospEeCsnxJYPL8iGWhwKR5h8/view?usp=sharing";
 });
