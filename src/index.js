@@ -1,5 +1,5 @@
-const resume_btn = document.querySelector("#resume-button-2");
-const resume_btn2 = document.querySelector("#resume-button-1");
+const resume_btn = document.querySelector("#resume-button-1");
+const resume_btn2 = document.querySelector("#resume-button-2");
 
 resume_btn2.addEventListener("click", (e) => {
   e.preventDefault();
