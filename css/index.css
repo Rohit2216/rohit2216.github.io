@@ -260,6 +260,280 @@ body {
     padding: 5px;
 }
 
+/* @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #projects>div:nth-child(2)>div {
+    animation: fadeIn 1s ease-in-out;
+  } */
+
+  /* #projects>div:nth-child(2)>div {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #projects>div:nth-child(2)>div:hover {
+    transform: scale(1.1);
+  } */
+  
+  /* #projects>div:nth-child(2)>div {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+
+/*   
+  #projects>div:nth-child(2)>div {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #projects>div:nth-child(2)>div:hover {
+    transform: rotate(360deg);
+  }
+     */
+  
+
+     /* #projects>div:nth-child(2)>div {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: pulseAnimation 1s infinite;
+      }
+      
+      @keyframes pulseAnimation {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      } */
+      
+      /* @keyframes pulsateAnimation {
+        0% {
+          background-color: #ff8906;
+          transform: scale(1);
+        }
+        50% {
+          background-color: #ffcc80;
+          transform: scale(1.1);
+        }
+        100% {
+          background-color: #ff8906;
+          transform: scale(1);
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        animation: pulsateAnimation 2s infinite;
+      }
+       */
+
+
+       /* @keyframes flipAnimation {
+        0% {
+          transform: perspective(800px) rotateY(0);
+        }
+        50% {
+          transform: perspective(800px) rotateY(180deg);
+        }
+        100% {
+          transform: perspective(800px) rotateY(0);
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: flipAnimation 1s;
+      } */
+      
+      /* @keyframes bounceAnimation {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: bounceAnimation 0.5s;
+      }
+      
+       */
+      
+       /* @keyframes combinedAnimation {
+        0% {
+          transform: rotate(0) scale(1);
+          background-color: #ff8906;
+          opacity: 1;
+          border-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+        }
+        25% {
+          transform: rotate(45deg) scale(1.1);
+          background-color: #ffcc80;
+          opacity: 0.8;
+          border-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+        }
+        50% {
+          transform: rotate(90deg) scale(1);
+          background-color: #fdd976;
+          opacity: 0.6;
+          border-color: #fdd976;
+          box-shadow: 0 0 20px 8px #fdd976;
+        }
+        75% {
+          transform: rotate(135deg) scale(1.1);
+          background-color: #ffcc80;
+          opacity: 0.8;
+          border-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+        }
+        100% {
+          transform: rotate(180deg) scale(1);
+          background-color: #ff8906;
+          opacity: 1;
+          border-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: combinedAnimation 2s infinite;
+      }
+       */
+
+       /* @keyframes combinedAnimation {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+          background-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+          border-color: #ff8906;
+        }
+        20% {
+          transform: scale(1.2) rotate(45deg);
+          opacity: 0.8;
+          background-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+          border-color: #ffcc80;
+        }
+        40% {
+          transform: scale(1.3) rotate(90deg);
+          opacity: 0.6;
+          background-color: #fdd976;
+          box-shadow: 0 0 20px 8px #fdd976;
+          border-color: #fdd976;
+        }
+        60% {
+          transform: scale(1.2) rotate(135deg);
+          opacity: 0.8;
+          background-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+          border-color: #ffcc80;
+        }
+        80% {
+          transform: scale(1.1) rotate(180deg);
+          opacity: 0.9;
+          background-color: #ff8906;
+          box-shadow: 0 0 5px 2px #ff8906;
+          border-color: #ff8906;
+        }
+        100% {
+          transform: scale(1) rotate(0);
+          opacity: 1;
+          background-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+          border-color: #ff8906;
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: combinedAnimation 3s infinite;
+      } */
+      
+
+
+      @keyframes combinedAnimation {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+          background-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+        }
+        25% {
+          transform: scale(1.2);
+          opacity: 0.8;
+          background-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+        }
+        50% {
+          transform: scale(1.3);
+          opacity: 0.6;
+          background-color: #fdd976;
+          box-shadow: 0 0 20px 8px #fdd976;
+        }
+        75% {
+          transform: scale(1.2);
+          opacity: 0.8;
+          background-color: #ffcc80;
+          box-shadow: 0 0 10px 4px #ffcc80;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+          background-color: #ff8906;
+          box-shadow: 0 0 0 0 #ff8906;
+        }
+      }
+      
+      #projects>div:nth-child(2)>div {
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+      }
+      
+      #projects>div:nth-child(2)>div:hover {
+        animation: combinedAnimation 3s infinite;
+      }
+      
 
 /* .github {
     width: 100%;
