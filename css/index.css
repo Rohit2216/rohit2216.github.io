@@ -306,7 +306,7 @@ body {
   }
 }
 
-@keyframes rotateAnimation {
+/* @keyframes rotateAnimation {
   0% {
     transform: rotate(0);
   }
@@ -314,19 +314,19 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 #skills {
-  animation: fadeAnimation 4s ease-in-out infinite;
+  animation: fadeAnimation 4s ease-in-out ;
 }
 
 .skills>div:nth-child(2)>div {
-  animation: scaleAnimation 4s ease-in-out infinite;
-}
+  animation: scaleAnimation 4s ease-in-out ;
+} 
 
-.skills>div:nth-child(2)>div:nth-child(odd) {
+/* .skills>div:nth-child(2)>div:nth-child(odd) {
   animation: rotateAnimation 4s ease-in-out infinite;
-}
+} */ 
 
 
 /* 
@@ -1211,7 +1211,7 @@ footer {
   color: white;
   background-color: #0f0e17;
   padding: 7px;
-  animation: slideUp 3s ease-in-out infinite;
+  animation: slideUp 3s ease-in-out ;
 }
 
 
