@@ -19,12 +19,17 @@ Projects Includes :
   d. Node JS
   e. Express
   f. MongoDB
+  g. Redis
+  h. TypeScript
+  i. AWS
+  j. Github
+  k. BootStraps
+  L. Data Structure & Algorithm
   
 8. Contact Section:
   a. Email
   b. Phone Number
-  c. YouTube Channel
-  d. Role
+  c. Role
   
 9. Footer
 
