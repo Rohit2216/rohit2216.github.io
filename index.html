@@ -314,15 +314,25 @@
         <!-- <span><b><span style="color:#ff8906">Internship :</span></b> MERN stack 6 months Internship with Edureka. -->
       </div>
       <div>
-        <form action="">
-          <label for=""><i class="fa fa-envelope"></i> Email Address</label><br>
-          <input type="email" placeholder="Enter Your Email"><br><br>
-          <label for=""><i class="fa fa-phone"></i> Phone Number</label><br>
-          <input type="number" placeholder="Enter Your Number"><br><br>
-          <label for=""><i class="fa fa-message"></i> Your Message</label><br>
-          <input type="text" id="message" placeholder="Enter Your Message"><br><br>
-          <input type="submit" value="Send Message">
-        </form>
+        <form
+        action="https://formspree.io/f/mgebgbkn"
+        method="POST"
+      >
+        <label>
+          <i class="fa fa-envelope"></i>Email Address<br>
+          <input type="email" placeholder="Enter Your Email" name="email">
+        </label>
+        <label>
+          <i class="fa fa-phone"></i> Phone Number<br>
+          <input type="tel" placeholder="Enter Your Number" name="contact" oninput="restrictInputLength(this, 10)" required>        </label>
+        <label>
+          <i class="fa fa-message"></i> Your Message<br>
+          <input type="text" placeholder="Enter Your Message" name="message"></textarea>
+        </label><br>
+        <!-- your other form fields go here -->
+        <button type="submit">Send Message</button>
+      </form>
+        
       </div>
     </div>
   </div>
@@ -356,3 +366,10 @@
 <div class="gitstatus"><img
   src="https://github-readme-activity-graph.cyclic.app/graph?username=chandankumar1425&count_private=true&theme=react-dark&hide_border=true"
   alt=""></div> -->
+  <script>
+    function restrictInputLength(input, maxLength) {
+      if (input.value.length > maxLength) {
+        input.value = input.value.slice(0, maxLength);
+      }
+    }
+    </script>
