@@ -480,8 +480,7 @@ body {
   padding: 50px;
   text-align: center;
   gap: 30px;
-
-
+  padding-top: 72px;
 }
 
 /* @keyframes fadeAnimation {
@@ -529,21 +528,18 @@ body {
 }
 
 
-#projects {
-  padding-top: 72px;
-}
-
 
 #projects>div:nth-child(2) :hover {
   background-color: rgb(201, 198, 198);
 }
 
 
-#projects h2 {
+#projects h1 {
   text-align: center;
   font-weight: bolder;
   color: black;
   margin-bottom: 20px;
+  
 }
 
 #projects p {
