@@ -34,6 +34,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 101;
+  
   /* border:2px solid red; */
 }
 
@@ -261,6 +262,7 @@ body {
   width: 100%;
   color: black;
   text-align: center;
+  padding-top: 12px;
 }
 
 .skills>div:nth-child(1) {
@@ -432,6 +434,7 @@ body {
   margin: auto;
   text-align: center;
   margin-top: 30px;
+  padding-top: 70px;
   background-color: #0f0e17;
   color: white;
 }
@@ -526,7 +529,9 @@ body {
 }
 
 
-
+#projects {
+  padding-top: 72px;
+}
 
 
 #projects>div:nth-child(2) :hover {
@@ -1441,4 +1446,11 @@ footer {
       font-size: 60px;
       line-height: 180px;
     }
+  } */
+
+
+
+  /* #wholedata {
+    border: 3px solid red;
+    margin-top: 40px;
   } */
