@@ -135,7 +135,8 @@
         <p class="skills-card-name"><b>Node JS</b></p>
       </div>
       <div class="skills-card">
-        <img class="skills-card-img" src="https://img.icons8.com/?size=512&id=kg46nzoJrmTR&format=png" alt="express_logo">
+        <img class="skills-card-img" src="https://img.icons8.com/?size=512&id=kg46nzoJrmTR&format=png"
+          alt="express_logo">
         <p class="skills-card-name"><b>Express</b></p>
       </div>
       <div class="skills-card">
@@ -153,14 +154,16 @@
         <img class="skills-card-img" src="https://cdn-icons-png.flaticon.com/512/2772/2772165.png" alt="sql_logo">
         <p class="skills-card-name"><b>SQL</b></p>
       </div>
-      
+
       <div class="skills-card">
-        <img class="skills-card-img" src="https://www.linkpicture.com/q/Untitled-design_100.png" alt="TypeScript_logo" style="border-radius:10px">
+        <img class="skills-card-img" src="https://www.linkpicture.com/q/Untitled-design_100.png" alt="TypeScript_logo"
+          style="border-radius:10px">
         <p class="skills-card-name"><b>TypeScript</b></p>
       </div>
-      
+
       <div class="skills-card">
-        <img class="skills-card-img" src="https://img.icons8.com/?size=512&id=KtgdUgtsk25h&format=png" alt="Bootstrap_logo">
+        <img class="skills-card-img" src="https://img.icons8.com/?size=512&id=KtgdUgtsk25h&format=png"
+          alt="Bootstrap_logo">
         <p class="skills-card-name"><b>Bootstrap</b></p>
       </div>
       <div class="skills-card">
@@ -209,7 +212,8 @@
         <h3 class="project-title"><b>Title:</b> HealthKart</h3>
         <p class="project-description">HealthKart is an online health and fitness store for men and women, which offers
           fitness products, services and community to help consumers achieve their fitness goals. It was an
-          <b>individual</b> project which is build in the span of 5 days.</p>
+          <b>individual</b> project which is build in the span of 5 days.
+        </p>
         <span class="project-tech-stack"><b>Tech Stacks:</b> HTML | CSS | JS </span><br>
         <a href="https://github.com/Rohit2216/gas-scarecrow-3264" class="project-github-link" target="_blank"><i
             class="fa fa-github"></i></a>
@@ -314,25 +318,15 @@
         <!-- <span><b><span style="color:#ff8906">Internship :</span></b> MERN stack 6 months Internship with Edureka. -->
       </div>
       <div>
-        <form
-        action="https://formspree.io/f/mgebgbkn"
-        method="POST"
-      >
-        <label>
-          <i class="fa fa-envelope"></i>Email Address<br>
-          <input type="email" placeholder="Enter Your Email" name="email">
-        </label>
-        <label>
-          <i class="fa fa-phone"></i> Phone Number<br>
-          <input type="tel" placeholder="Enter Your Number" name="contact" oninput="restrictInputLength(this, 10)" required>        </label>
-        <label>
-          <i class="fa fa-message"></i> Your Message<br>
-          <input type="text" placeholder="Enter Your Message" name="message"></textarea>
-        </label><br>
-        <!-- your other form fields go here -->
-        <button type="submit">Send Message</button>
-      </form>
-        
+        <form class="contact_form" action="" onsubmit="sendmsg(event)">
+          <label for=""><i class="fa fa-envelope"></i> Email Address</label><br>
+          <input class="email" type="email" placeholder="Enter Your Email"><br><br>
+          <label for=""><i class="fa fa-phone"></i> Contact</label><br>
+          <input class="contact" type="number " placeholder="Contact details"><br><br>
+          <label for=""><i class="fa fa-message"></i> Your Message</label><br>
+          <input class="msg" type="text" id="message" placeholder="Enter Your Message"><br><br>
+          <input type="submit" value="Send Message">
+        </form>
       </div>
     </div>
   </div>
@@ -348,7 +342,7 @@
   <!-- Footer Section End  -->
 
 
-  
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
 <script src="./src/index.js"></script>
@@ -360,16 +354,54 @@
   new GitHubCalendar(".calendar", "rohit2216");
 </script>
 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+
+// function sendmsg(e) {
+//   e.preventDefault();
+
+//   var fromEmail = document.querySelector('.email').value;
+//   var subject = document.querySelector('.subject').value;
+//   var message = document.querySelector('.msg').value;
+
+//   // Replace 'YOUR_SMTP_HOST' with the appropriate SMTP host
+//   // Replace 'YOUR_USERNAME' with the appropriate username/email
+//   // Replace 'YOUR_PASSWORD' with the appropriate password (make sure to handle it securely)
+//   Email.send({
+//     Host: "smtp.elasticemail.com",
+//     Username: "chauhanrohit716@gmail.com",
+//     Password: "191EB74356AE5A31C7CE8F16D536BFC366F7",
+//     To: "chauhanrohit716@gmail.com",
+//     From: email,
+//     Subject: subject,
+//     Body: message,
+//   }).then(function (message) {
+//     alert(message);
+//   });
+
+//   return alert("email sent");
+// }
+
+
+</script>
+
+
+
+
+
+
 <!-- </html><script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
 
 <!-- 
 <div class="gitstatus"><img
   src="https://github-readme-activity-graph.cyclic.app/graph?username=chandankumar1425&count_private=true&theme=react-dark&hide_border=true"
   alt=""></div> -->
-  <script>
+<!-- <script>
     function restrictInputLength(input, maxLength) {
       if (input.value.length > maxLength) {
         input.value = input.value.slice(0, maxLength);
       }
     }
-    </script>
+    </script> -->
