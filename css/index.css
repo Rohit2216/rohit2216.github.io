@@ -1406,16 +1406,16 @@ footer {
 
   }
 
-  #githubclaenders {
-    width: 100%;
+  /* #githubclaenders { */
+    /* width: 100%; */
     /* display: grid; */
     /* grid-template-columns: repeat(1, 1fr); */
-    column-gap: 10px;
+    /* column-gap: 10px; */
     /* margin-top: 25px; */
     /* border:2px solid red; */
     /* padding-left:120px; */
 
-  }
+  /* } */
 }
 
 /* .calender{
@@ -1425,16 +1425,16 @@ footer {
     */
 
 
-#githubclaenders {
+/* #githubclaenders {
   width: 80%;
   /* display: grid; */
   /* grid-template-columns: repeat(1, 1fr); */
-  column-gap: 10px;
-  margin-top: 25px;
+  /* column-gap: 10px; */
+  /* margin-top: 25px; */
   /* border:2px solid red; */
   /* padding-left:120px; */
 
-}
+/* } */ */
 
 
 /* @media (max-width: 767px) {
@@ -1450,3 +1450,27 @@ footer {
     border: 3px solid red;
     margin-top: 40px;
   } */
+
+
+  /* Style for the parent container */
+/* Style for the parent container */
+#githubclaenders {
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+
+/* Style for the image inside the container */
+#githubclaenders img {
+  width: 100%;
+  height: auto;
+  /* border:2px solid red; */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  #githubclaenders {
+      max-width: 80%;
+      margin: 0 auto;
+  }
+}
