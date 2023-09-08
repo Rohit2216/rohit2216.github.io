@@ -1474,3 +1474,13 @@ footer {
       margin: 0 auto;
   }
 }
+
+/* Style for the <h2> element */
+#githubclaenders h2 {
+  /* font-size: 24px; Adjust the font size as needed */
+  color: #ff8906; /* Change the text color to your preference */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  text-align: center; /* Center align the text */
+  padding-bottom: 30px;
+  padding-top:10px;
+}
