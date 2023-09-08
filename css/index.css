@@ -1484,3 +1484,62 @@ footer {
   padding-bottom: 30px;
   padding-top:10px;
 }
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid red;
+}
+
+.modal-content {
+  background-color: black;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 400px; /* Set the maximum width of the modal content */
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Close button styles */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* OK button styles */
+.ok-button {
+  background-color: #ff8906;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ok-button:hover {
+  background-color: #ff8906;
+}
+
+/* Email sent message styles */
+.email-sent {
+  color:black;
+  font-weight: bolder;/* Change the text color for email sent message */
+}
+
+
+

@@ -332,16 +332,27 @@
         <!-- <span><b><span style="color:#ff8906">Internship :</span></b> MERN stack 6 months Internship with Edureka. -->
       </div>
       <div>
-        <form class="contact_form" action="" onsubmit="sendmsg(event)">
-          <label for=""><i class="fa fa-envelope"></i> Email Address</label><br>
-          <input class="email" type="email" placeholder="Enter Your Email"><br><br>
-          <label for=""><i class="fa fa-phone"></i> Contact</label><br>
-          <input class="contact" type="number " placeholder="Contact details"><br><br>
-          <label for=""><i class="fa fa-message"></i> Your Message</label><br>
-          <input class="msg" type="text" id="message" placeholder="Enter Your Message"><br><br>
+        <form class="contact_form" onsubmit="sendEmail(event)">
+          <label for="user-email"><i class="fa fa-envelope"></i> Email Address</label><br>
+          <input class="email" type="email" id="user-email" placeholder="Enter Your Email" required><br><br>
+          <label for="user-contact"><i class="fa fa-phone"></i> Contact</label><br>
+          <input class="contact" type="tel" id="user-contact" placeholder="Contact details" required pattern="[0-9]{10}" title="Enter a 10-digit mobile number"><br><br>
+          <label for="user-message"><i class="fa fa-message"></i> Your Message</label><br>
+          <input class="msg" id="user-message" rows="4" placeholder="Enter Your Message" required></input><br><br>
           <input type="submit" value="Send Message">
-        </form>
-      </div>
+      </form>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modal-message"></p>
+            <button class="ok-button" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+
     </div>
   </div>
   <!-- <--------------- Contact Section End ------------------------------>
@@ -425,3 +436,5 @@
       }
     }
     </script> -->
+
+
