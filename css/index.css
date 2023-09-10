@@ -1292,6 +1292,20 @@ footer {
   
 }
 
+@media only screen and (max-width:576px) {
+  #nav-menu {
+    position: fixed;
+    
+  }
+
+  .navbar-nav li a {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  
+}
+
 @media screen and (max-width: 768px) {
   .contacts-section>div:nth-child(2) {
     grid-template-columns: repeat(1, 1fr);
