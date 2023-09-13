@@ -1281,7 +1281,12 @@ footer {
 @media only screen and (max-width: 600px) {
   #nav-menu {
     position: static;
+    width:100%;
     
+  }
+
+  #home {
+    width:100%;
   }
 
   .navbar-nav li a {
@@ -1295,6 +1300,7 @@ footer {
 @media only screen and (max-width:576px) {
   #nav-menu {
     position: fixed;
+    width:100%;
     
   }
 
