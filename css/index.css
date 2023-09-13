@@ -157,7 +157,7 @@ body {
 
 .name>div:nth-child(1)>img {
   width: 300px;
-  border-radius: 50px;
+  border-radius: 40%;
   margin-top: 50px;
 
 
