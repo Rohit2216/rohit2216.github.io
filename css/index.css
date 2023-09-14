@@ -1598,3 +1598,10 @@ footer {
 
 
 
+#social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
